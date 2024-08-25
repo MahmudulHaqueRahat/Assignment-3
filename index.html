@@ -42,15 +42,15 @@
 </head>
 <body class="manrope ">
     <!-- Header section -->
-     <header class="bg-white">
-       <nav class=" ">
-        <div class="navbar bg-base-100">
-          <div class="">     
-            <!-- navbar-start -->
+     <header class="bg-white  ">
+      <!-- px-5 lg:px-32 -->
+       <nav class="container w-11/12 mx-auto ">
+        <div class="navbar ">
+          <div class="navbar-start">     
             <a class="font-bold text-3xl"><i class="fa-solid fa-arrow-right -rotate-45 bg-tea p-1 rounded-full "></i> Rinterio</a>
           </div>
           <div class="navbar-center hidden lg:flex">
-            <ul class="menu menu-horizontal px-1">
+            <ul class="menu menu-horizontal px-1 pr-20">
               <li><a>Home</a></li>
               <li><a>Services</a></li>
               <li><a>Portfolio</a></li>
@@ -60,14 +60,14 @@
                
             </ul>
           </div>
-          <div class=" invisible lg:visible">
-            <!-- navbar-end -->
+          <div class="navbar-end invisible lg:visible ">
+            <!--  -->
             <i class="fa-solid fa-magnifying-glass pr-5"></i>
             <i class="fa-solid fa-cart-shopping pr-5"></i>
             <a class="btn rounded-3xl bg-tea font-bold text-lg">Book Consult<i class="fa-solid fa-arrow-right -rotate-45  
                bg-black rounded-full text-white p-1"></i></a>
           </div>
-          <div class="dropdown">
+          <div class="dropdown lg:hidden">
             <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -84,7 +84,7 @@
             </div>
             <ul
               tabindex="0"
-              class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-50 p-2 shadow">
+              class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-45 p-2 shadow">
               <li><a>Home</a></li>
               <li><a>Services</a></li>
               <li><a>Portfolio</a></li>
@@ -95,14 +95,18 @@
         </div>
        </nav>
        <!-- Banner -->
-        <!-- <section>
-        <div class="space-y-2">
+        <section>
+        <div class=" flex flex-col justify-center items-center">
             <img src="./assets/banner.png" alt="">
-            <h2 class="font-bold text-txt-head text-5xl">A barn house of this design has <br> a striking appearance</h2>
-            <p class="text-txt-para">The barn house captivates with its blend of rustic charm and modern <br> sophistication, featuring weathered wood, sleek metal accents, and large <br> windows that flood the space with natural light.</p>
-            <button class="btn">View Details</button>
+            <div class="space-y-4 flex flex-col justify-center items-center">
+              <h2 class="font-bold text-txt-head lg:text-5xl text-4xl text-center">A barn house of this design has 
+                <br> a striking appearance</h2>
+              <p class="text-txt-para text-center w-3/5">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents, and large windows that flood the space with natural light.</p>
+              <button class="btn bg-lime-200">View Details<i class="fa-solid fa-arrow-right -rotate-45 bg-tea p-1 rounded-full "></i> </button>
+            </div>
+           
           </div>
-        </section> -->
+        </section>
      </header>
   
     <!-- Main section -->

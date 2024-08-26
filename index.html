@@ -26,11 +26,14 @@
           clifford: '#da373d',
            'bike-btn': '#E76F51',
            'txt-white':'#FFFFFF',
-           'txt-para':'#000000CC',
-           'txt-head':'#000000',
+           'txt-para':'#494949',
+           'txt-head':'#212121',
            'tea':'#ABEF5F',
            'background': '#F4F4F4;',
-        }
+        },
+        backgroundImage: {
+          'connect': "url('./assets/bg.jpg')", 
+             },
       }
     }
   }
@@ -192,6 +195,26 @@
               </div>
            </div>
          </Section>
+         <!-- Our Latest Portfolio -->
+         <section></section>
+         <!-- Let’s Connect -->
+         <section class=" bg-connect bg-no-repeat bg-cover pt-10 lg:pt-24  mx-auto  lg:container lg:px-32  pb-8 lg:pb-24">
+          <div class=" text-center "><button class="bg-lime-200 py-1 px-4 rounded-full"> <i class="fa-solid fa-arrow-right "></i></i>Let's connect </button></div>
+          <div class=" text-center mb-8 space-y-4"> 
+            <h1 class="text-txt-head font-bold text-4xl"> Let’s Discuss Next Project</h1>
+            <p class=" text-txt-para ">
+              The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.
+            </p>
+          </div> 
+          <div class="grid grid-cols-1 lg:grid-cols-4 gap-3 pl-3  "> 
+            <input type="text" placeholder="First Name*" class="input input-bordered lg:col-span-2 rounded-full " />
+            <input type="text" placeholder="Last Name*" class="input input-bordered lg:col-span-2 rounded-full " /> 
+            <input type="text" placeholder="Phone Number*" class="input input-bordered lg:col-span-2 rounded-full " />
+            <input type="text" placeholder="Email Number*" class="input input-bordered lg:col-span-2  rounded-full " />
+            <input type="text" placeholder="Write your massage here" class="input input-bordered lg:col-span-4 h-28 lg:h-56 rounded-[32px]" />
+            <a class="btn bg-tea bg-opacity-90 text-black rounded-full px-36 lg:py-2 lg:pl-5 lg:pr-3 lg:col-span-4 font-bold border-none ">Send mail<i class="fa-solid fa-arrow-right text-white bg-black rounded-full p-1 -rotate-45"></i></i></a>
+          </div>
+         </section>
       </main>
     <!--Footer section  -->
     <footer>

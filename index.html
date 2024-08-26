@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Rinterio</title>
   <!-- daisy ui -->
   <link
   href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css"
@@ -29,6 +29,7 @@
            'txt-para':'#000000CC',
            'txt-head':'#000000',
            'tea':'#ABEF5F',
+           'background': '#F4F4F4;',
         }
       }
     }
@@ -40,10 +41,9 @@
   }
 </style>
 </head>
-<body class="manrope ">
+<body class="manrope">
     <!-- Header section -->
-     <header class="bg-white  ">
-      <!-- px-5 lg:px-32 -->
+     <header class="bg-white pb-11">
        <nav class="container w-11/12 mx-auto ">
         <div class="navbar ">
           <div class="navbar-start">     
@@ -55,13 +55,10 @@
               <li><a>Services</a></li>
               <li><a>Portfolio</a></li>
               <li><a>Blogs</a></li>
-              <li><a>Contact Us</a></li>
-              
-               
+              <li><a>Contact Us</a></li>  
             </ul>
           </div>
           <div class="navbar-end invisible lg:visible ">
-            <!--  -->
             <i class="fa-solid fa-magnifying-glass pr-5"></i>
             <i class="fa-solid fa-cart-shopping pr-5"></i>
             <a class="btn rounded-3xl bg-tea font-bold text-lg">Book Consult<i class="fa-solid fa-arrow-right -rotate-45  
@@ -104,13 +101,47 @@
               <p class="text-txt-para text-center w-3/5">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents, and large windows that flood the space with natural light.</p>
               <button class="btn bg-lime-200">View Details<i class="fa-solid fa-arrow-right -rotate-45 bg-tea p-1 rounded-full "></i> </button>
             </div>
-           
           </div>
         </section>
      </header>
   
     <!-- Main section -->
-      <main></main>
+      <main>
+        <!-- About us -->
+        <section class="bg-background pb-10">
+          <div><img class="pt-5 pl-6" src="./assets/Vector.png" alt=""></div>
+          <div class=" w-11/12 mx-auto pt-3">
+            <div class="lg:flex px-14">
+              <!-- Text-content -->
+               <div class="space-y-7">
+                
+                <button class="btn rounded-3xl bg-white font-bold"><i class="fa-solid fa-arrow-right "></i></i>About us</button>
+                <h1 class="font-extrabold text-4xl text-txt-head">We design thoughtful,
+                  <br>liveable spaces</h1>
+                <p class="text-txt-para w-4/5">The barn house captivates with its blend of rustic charm and 
+                  modern sophistication, featuring weathered wood, sleek metal accents.</p>
+                  <!-- Two cards -->
+                  <div class="bg-white w-full lg:w-4/5 pl-3 pb-4 rounded-lg flex space-x-2">
+                    <img class="h-16 mt-4 " src="./assets/commercial.png" alt="">
+                    <div class="pt-6">
+                      <h1 class="font-bold text-2xl text-txt-head ">Commercial</h1>
+                      <p class="text-txt-para">The barn house captivates with its blend of rustic charm and modern.</p></div>
+                  </div>
+                  <div class="bg-white w-full lg:w-4/5 pl-3 pb-4 rounded-lg flex space-x-2">
+                    <img class="h-16 mt-4 " src="./assets/residential.png" alt="">
+                    <div class="pt-6">
+                      <h1 class="font-bold text-2xl text-txt-head ">Residential</h1>
+                      <p class="text-txt-para">The barn house captivates with its blend of rustic charm and modern.</p></div>
+                  </div>
+                </div>
+              <!-- img -->
+               <div>
+                <img class="pt-5 w-full" src="./assets/Rectangle.png" alt="">
+               </div>
+            </div>
+          </div>
+        </section>
+      </main>
     <!--Footer section  -->
     <footer>
 
